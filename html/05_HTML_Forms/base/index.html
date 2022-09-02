@@ -23,7 +23,7 @@
             <form action="http://fe.it-academy.by/TestForm.php" name ="form2" method="get">
                 <fieldset>
                     <legend>Строка пойска</legend>
-                    <input type="text" placeholder="Это обязательное поле" name ="search2" maxlength="10" autofocus>*<input type="submit" value="искать"><br>
+                    <input type="text" placeholder="Это обязательное поле" name ="search2" maxlength="10" autofocus>*<input type="submit" value="искать" required><br>
                     <input type="radio" name="radio" value="radio1">на сайте <input type="radio" name="radio" value="radio2">в google
                 </fieldset>
             </form>
@@ -35,8 +35,8 @@
             <form action="http://fe.it-academy.by/TestForm.php" name ="form3" method="get">
                 <fieldset>
                     <legend>Авторизуйтесь</legend>
-                    <input type="text" placeholder="Это обязательное поле" name="login">* Логин<br>
-                    <input type="text" placeholder="Это обязательное поле" name="password">* Пароль<br>
+                    <input type="text" placeholder="Это обязательное поле" name="login" required>* Логин<br>
+                    <input type="text" placeholder="Это обязательное поле" name="password" required>* Пароль<br>
                     <input type="checkbox" name="check1"> оставаться в системе<br>
                     <input type="submit" value="войти">
                 </fieldset>
@@ -64,7 +64,7 @@
                 <fieldset>
                     <legend>Оставьте Ваш отзыв</legend>
                     <input type="text" name ="name">* Имя<br>
-                    <input type="email" placeholder="Это обязательное поле" name="email">* E-mail<br>
+                    <input type="email" placeholder="Это обязательное поле" name="email" required>* E-mail<br>
                     <textarea name="text" cols="21" rows="5"></textarea><br>
                     <input type="submit" value="отправить">
                 </fieldset>

@@ -1,0 +1,48 @@
+.one{
+    background-image: url("sprite.png");
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 180px;
+}
+.two {
+    background-image: url("sprite.png");
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 180px;
+    background-position: -140px -400px;
+    margin-left: 50px;
+    margin-top: -100px;
+    float: left;
+}
+.three{
+    background-image: url("sprite.png");
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 180px;
+    background-position: -285px -800px;
+    margin-left: -80px;
+    float: left;
+}
+.four{
+    background-image: url("sprite.png");
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 180px;
+    background-position: -0px -200px;
+    margin-left: -80px;
+    margin-top: 60px;
+    float: left;
+}
+.five{
+    background-image: url("sprite.png");
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 180px;
+    background-position: -0px -400px;
+    margin-left: -80px;
+    margin-top: 120px;
+    float: left;
+}
+body{
+    background-color: aqua;
+}
