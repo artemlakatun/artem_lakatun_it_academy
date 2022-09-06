@@ -1,0 +1,15 @@
+.cons{
+    width: 400px;
+    height: 80px;
+    background-color: black;
+    color: green;
+    overflow: auto;
+}
+.one{
+    list-style-type: upper-roman;
+    font-weight: bold;
+}
+.two{
+    list-style-type: lower-roman;
+    font-weight: normal;
+}
