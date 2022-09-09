@@ -1,0 +1,40 @@
+li{
+    list-style-image: url("123.jfif");
+}
+td{
+    border: 2px solid gray;
+    border-radius: 0px 20px 0px 20px;
+}
+td a:hover{
+    background-color: #efef99;
+}
+.h1 span{
+    position: absolute;
+    left: 0px;
+    opacity: 0;
+    transition: .5s;
+}
+.h1:hover span{
+    opacity: 1;
+    left: 185px;
+}
+.h2 span{
+    position: absolute;
+    left: 0px;
+    opacity: 0;
+    transition: .5s;
+}
+.h3 span{
+    position: absolute;
+    left: 0px;
+    opacity: 0;
+    transition: .5s;
+}
+.h2:hover span{
+    opacity: 1;
+    left: 155px;
+}
+.h3:hover span{
+    opacity: 1;
+    left: 99px;
+}
