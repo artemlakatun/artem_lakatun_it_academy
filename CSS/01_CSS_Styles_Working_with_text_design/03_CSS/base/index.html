@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Выплывающий список</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        .level_1>div{
+            float: left;
+            border: solid black 1px;
+            height: 18px;
+            background-color: gray;
+            width: 90px;
+        }
+        .level_2>div{
+            border: solid black 1px;
+            opacity: 0;
+            background-color: #efef99;
+        }
+        .level_2:hover div {
+            opacity: 1;
+            transition: .8s;
+        }
+
+    </style>
+</head>
+<body>
+<div class="level_1">
+    <div class="level_2"> Понедельник
+        <div><span>завтрак</span></div>
+        <div><span>обед</span></div>
+        <div><span>ужин</span></div>
+    </div>
+    <div class="level_2"> Вторник
+        <div>завтрак</div>
+        <div>обед</div>
+        <div>ужин</div>
+    </div>
+    <div class="level_2"> Среда
+        <div>завтрак</div>
+        <div>обед</div>
+        <div>ужин</div>
+    </div>
+    <div class="level_2"> Четверг
+        <div>завтрак</div>
+        <div>обед</div>
+        <div>ужин</div>
+    </div>
+    <div class="level_2"> Пятница
+        <div>завтрак</div>
+        <div>обед</div>
+        <div>ужин</div>
+    </div>
+    <div class="level_2"> Суббота
+        <div>завтрак</div>
+        <div>обед</div>
+        <div>ужин</div>
+    </div>
+</div>
+</body>
+</html>
